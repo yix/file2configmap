@@ -1,0 +1,8 @@
+---
+configMaps:
+  - name: testcm1
+    files:
+      - testfile1.txt
+      - testfile2.txt
+  - name: testcm2
+    files: ['testfile2.txt']
